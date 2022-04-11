@@ -131,7 +131,7 @@ const {
   // フォーム送信時の処理
   const onSubmit: SubmitHandler<FormInput> = (data) => {
     setProgress(true);
-    instance.post("http://127.0.0.1:8000/", data).then((res: any) => {
+    instance.post("https://bbaidm2zkz.ap-northeast-1.awsapprunner.com", data).then((res: any) => {
         setPosts(res.data);
       })
       .catch((err:any) => {

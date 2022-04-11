@@ -1,7 +1,7 @@
 import axios from "axios";
 
 const instance = axios.create({
-    baseURL: "http://127.0.0.1:8000",
+    baseURL: "https://bbaidm2zkz.ap-northeast-1.awsapprunner.com",
 });
 
 export default instance;
