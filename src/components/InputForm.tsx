@@ -189,7 +189,7 @@ useEffect(() => {
                 error={'start_value' in errors}
                 helperText={errors.start_value?.message}
                 placeholder="例:50000000(半角数字)"
-                inputMode='tel'
+                inputProps={{ inputMode: 'tel' }}
               />
             )}
          />
@@ -205,7 +205,7 @@ useEffect(() => {
                 error={'withdrawal' in errors}
                 helperText={errors.withdrawal?.message}
                 placeholder="例:2000000(半角数字)"
-                inputMode='tel'
+                inputProps={{ inputMode: 'tel' }}
               />
             )}
          />
@@ -223,7 +223,7 @@ useEffect(() => {
                 error={'min_years' in errors}
                 helperText={errors.min_years?.message}
                 placeholder="例:30(半角数字)"
-                inputMode='tel'
+                inputProps={{ inputMode: 'tel' }}
               />
             )}
          />
@@ -241,7 +241,7 @@ useEffect(() => {
                 error={'most_likely_years' in errors}
                 helperText={errors.most_likely_years?.message}
                 placeholder="例:40(半角数字)"
-                inputMode='tel'
+                inputProps={{ inputMode: 'tel' }}
               />
             )}
          />
@@ -259,7 +259,7 @@ useEffect(() => {
                 error={'max_years' in errors}
                 helperText={errors.max_years?.message}
                 placeholder="例:50(半角数字)"
-                inputMode='tel'
+                inputProps={{ inputMode: 'tel' }}
               />
             )}
          />
