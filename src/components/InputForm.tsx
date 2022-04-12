@@ -131,7 +131,7 @@ const {
   // フォーム送信時の処理
   const onSubmit: SubmitHandler<FormInput> = (data) => {
     setProgress(true);
-    instance.post("https://jcubv244bt.ap-northeast-1.awsapprunner.com", data).then((res: any) => {
+    instance.post("https://d8vegaaivg.ap-northeast-1.awsapprunner.com/fire/", data).then((res: any) => {
         setPosts(res.data);
       })
       .catch((err:any) => {
